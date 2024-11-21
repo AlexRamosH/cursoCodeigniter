@@ -1,0 +1,659 @@
+CRITICAL - 2024-11-20 17:46:31 --> ArgumentCountError: Too few arguments to function CodeIgniter\Router\RouteCollection::get(), 1 passed in C:\laragon\www\biblioteca\app\Config\Routes.php on line 18 and at least 2 expected
+[Method: GET, Route: Libro]
+in SYSTEMPATH\Router\RouteCollection.php on line 1051.
+ 1 APPPATH\Config\Routes.php(18): CodeIgniter\Router\RouteCollection->get('LibroLibros::index')
+ 2 SYSTEMPATH\Router\RouteCollection.php(340): require('C:\\laragon\\www\\biblioteca\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 17:47:13 --> ArgumentCountError: Too few arguments to function CodeIgniter\Router\RouteCollection::get(), 1 passed in C:\laragon\www\biblioteca\app\Config\Routes.php on line 18 and at least 2 expected
+[Method: GET, Route: Libro]
+in SYSTEMPATH\Router\RouteCollection.php on line 1051.
+ 1 APPPATH\Config\Routes.php(18): CodeIgniter\Router\RouteCollection->get('LibroLibros::index')
+ 2 SYSTEMPATH\Router\RouteCollection.php(340): require('C:\\laragon\\www\\biblioteca\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 17:47:19 --> ArgumentCountError: Too few arguments to function CodeIgniter\Router\RouteCollection::get(), 1 passed in C:\laragon\www\biblioteca\app\Config\Routes.php on line 18 and at least 2 expected
+[Method: GET, Route: Libros]
+in SYSTEMPATH\Router\RouteCollection.php on line 1051.
+ 1 APPPATH\Config\Routes.php(18): CodeIgniter\Router\RouteCollection->get('LibroLibros::index')
+ 2 SYSTEMPATH\Router\RouteCollection.php(340): require('C:\\laragon\\www\\biblioteca\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 17:47:26 --> ArgumentCountError: Too few arguments to function CodeIgniter\Router\RouteCollection::get(), 1 passed in C:\laragon\www\biblioteca\app\Config\Routes.php on line 18 and at least 2 expected
+[Method: GET, Route: libro]
+in SYSTEMPATH\Router\RouteCollection.php on line 1051.
+ 1 APPPATH\Config\Routes.php(18): CodeIgniter\Router\RouteCollection->get('LibroLibros::index')
+ 2 SYSTEMPATH\Router\RouteCollection.php(340): require('C:\\laragon\\www\\biblioteca\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 17:47:36 --> ArgumentCountError: Too few arguments to function CodeIgniter\Router\RouteCollection::get(), 1 passed in C:\laragon\www\biblioteca\app\Config\Routes.php on line 18 and at least 2 expected
+[Method: GET, Route: Libro]
+in SYSTEMPATH\Router\RouteCollection.php on line 1051.
+ 1 APPPATH\Config\Routes.php(18): CodeIgniter\Router\RouteCollection->get('LibroLibros::index')
+ 2 SYSTEMPATH\Router\RouteCollection.php(340): require('C:\\laragon\\www\\biblioteca\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 17:47:44 --> ArgumentCountError: Too few arguments to function CodeIgniter\Router\RouteCollection::get(), 1 passed in C:\laragon\www\biblioteca\app\Config\Routes.php on line 18 and at least 2 expected
+[Method: GET, Route: Libro]
+in SYSTEMPATH\Router\RouteCollection.php on line 1051.
+ 1 APPPATH\Config\Routes.php(18): CodeIgniter\Router\RouteCollection->get('LibroLibros::index')
+ 2 SYSTEMPATH\Router\RouteCollection.php(340): require('C:\\laragon\\www\\biblioteca\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 17:49:03 --> ArgumentCountError: Too few arguments to function CodeIgniter\Router\RouteCollection::get(), 1 passed in C:\laragon\www\biblioteca\app\Config\Routes.php on line 18 and at least 2 expected
+[Method: GET, Route: Libro]
+in SYSTEMPATH\Router\RouteCollection.php on line 1051.
+ 1 APPPATH\Config\Routes.php(18): CodeIgniter\Router\RouteCollection->get('LibroLibros::index')
+ 2 SYSTEMPATH\Router\RouteCollection.php(340): require('C:\\laragon\\www\\biblioteca\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 17:55:44 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Libreria.php"
+[Method: GET, Route: Libro]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Libreria.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Libreria', [], true)
+ 3 APPPATH\Controllers\Libros.php(12): view('Libreria')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Libros->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 17:55:45 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Libreria.php"
+[Method: GET, Route: Libro]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Libreria.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Libreria', [], true)
+ 3 APPPATH\Controllers\Libros.php(12): view('Libreria')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Libros->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-11-20 18:34:53 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: YES) in C:\laragon\www\biblioteca\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 C:\laragon\www\biblioteca\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('localhost', '', '', '', 3306, '', 0)
+#1 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(1485): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(1505): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\laragon\www\biblioteca\system\Database\MigrationRunner.php(759): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\laragon\www\biblioteca\system\Database\MigrationRunner.php(163): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\laragon\www\biblioteca\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\laragon\www\biblioteca\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\laragon\www\biblioteca\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\laragon\www\biblioteca\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 C:\laragon\www\biblioteca\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\laragon\www\biblioteca\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: YES) in C:\laragon\www\biblioteca\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(1485): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(1505): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\laragon\www\biblioteca\system\Database\MigrationRunner.php(759): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\laragon\www\biblioteca\system\Database\MigrationRunner.php(163): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\laragon\www\biblioteca\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\laragon\www\biblioteca\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 C:\laragon\www\biblioteca\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 C:\laragon\www\biblioteca\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#10 C:\laragon\www\biblioteca\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#11 C:\laragon\www\biblioteca\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-11-20 18:38:51 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'ci4' in C:\laragon\www\biblioteca\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 C:\laragon\www\biblioteca\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('localhost', 'root', '', 'ci4', 3306, '', 0)
+#1 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(1485): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(1505): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\laragon\www\biblioteca\system\Database\MigrationRunner.php(759): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\laragon\www\biblioteca\system\Database\MigrationRunner.php(163): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\laragon\www\biblioteca\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\laragon\www\biblioteca\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\laragon\www\biblioteca\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\laragon\www\biblioteca\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 C:\laragon\www\biblioteca\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\laragon\www\biblioteca\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'ci4' in C:\laragon\www\biblioteca\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(1485): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(1505): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\laragon\www\biblioteca\system\Database\MigrationRunner.php(759): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\laragon\www\biblioteca\system\Database\MigrationRunner.php(163): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\laragon\www\biblioteca\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\laragon\www\biblioteca\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 C:\laragon\www\biblioteca\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 C:\laragon\www\biblioteca\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#10 C:\laragon\www\biblioteca\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#11 C:\laragon\www\biblioteca\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-11-20 18:39:13 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'biblioteca' in C:\laragon\www\biblioteca\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 C:\laragon\www\biblioteca\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('localhost', 'root', '', 'biblioteca', 3306, '', 0)
+#1 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(1485): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(1505): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\laragon\www\biblioteca\system\Database\MigrationRunner.php(759): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\laragon\www\biblioteca\system\Database\MigrationRunner.php(163): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\laragon\www\biblioteca\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\laragon\www\biblioteca\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\laragon\www\biblioteca\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\laragon\www\biblioteca\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 C:\laragon\www\biblioteca\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\laragon\www\biblioteca\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'biblioteca' in C:\laragon\www\biblioteca\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(1485): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(1505): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\laragon\www\biblioteca\system\Database\MigrationRunner.php(759): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\laragon\www\biblioteca\system\Database\MigrationRunner.php(163): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\laragon\www\biblioteca\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\laragon\www\biblioteca\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 C:\laragon\www\biblioteca\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 C:\laragon\www\biblioteca\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#10 C:\laragon\www\biblioteca\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#11 C:\laragon\www\biblioteca\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#12 {main}
+ERROR - 2024-11-20 18:40:42 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'biblioteca' in C:\laragon\www\biblioteca\system\Database\MySQLi\Connection.php:187
+Stack trace:
+#0 C:\laragon\www\biblioteca\system\Database\MySQLi\Connection.php(187): mysqli->real_connect('localhost', 'root', '', 'biblioteca', 3306, '', 0)
+#1 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(1485): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(1505): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\laragon\www\biblioteca\system\Database\MigrationRunner.php(759): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\laragon\www\biblioteca\system\Database\MigrationRunner.php(163): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\laragon\www\biblioteca\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\laragon\www\biblioteca\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\laragon\www\biblioteca\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\laragon\www\biblioteca\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 C:\laragon\www\biblioteca\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\laragon\www\biblioteca\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'biblioteca' in C:\laragon\www\biblioteca\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(1485): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(1505): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\laragon\www\biblioteca\system\Database\MigrationRunner.php(759): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\laragon\www\biblioteca\system\Database\MigrationRunner.php(163): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\laragon\www\biblioteca\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\laragon\www\biblioteca\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 C:\laragon\www\biblioteca\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 C:\laragon\www\biblioteca\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#10 C:\laragon\www\biblioteca\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#11 C:\laragon\www\biblioteca\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-11-20 19:46:21 --> ReflectionException: Class "App\Controllers\Libros" does not exist
+[Method: CLI, Route: routes]
+in SYSTEMPATH\Commands\Utilities\Routes\ControllerMethodReader.php on line 40.
+ 1 SYSTEMPATH\Commands\Utilities\Routes\ControllerMethodReader.php(40): ReflectionClass->__construct('App\\Controllers\\Libros')
+ 2 SYSTEMPATH\Commands\Utilities\Routes\AutoRouteCollector.php(44): CodeIgniter\Commands\Utilities\Routes\ControllerMethodReader->read('App\\Controllers\\Libros', 'Home', 'index')
+ 3 SYSTEMPATH\Commands\Utilities\Routes.php(163): CodeIgniter\Commands\Utilities\Routes\AutoRouteCollector->get()
+ 4 SYSTEMPATH\CLI\Commands.php(70): CodeIgniter\Commands\Utilities\Routes->run([])
+ 5 SYSTEMPATH\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('routes', [])
+ 6 SYSTEMPATH\Boot.php(351): CodeIgniter\CLI\Console->run()
+ 7 SYSTEMPATH\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 8 ROOTPATH\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+CRITICAL - 2024-11-20 19:46:27 --> ReflectionException: Class "App\Controllers\Libros" does not exist
+[Method: CLI, Route: routes]
+in SYSTEMPATH\Commands\Utilities\Routes\ControllerMethodReader.php on line 40.
+ 1 SYSTEMPATH\Commands\Utilities\Routes\ControllerMethodReader.php(40): ReflectionClass->__construct('App\\Controllers\\Libros')
+ 2 SYSTEMPATH\Commands\Utilities\Routes\AutoRouteCollector.php(44): CodeIgniter\Commands\Utilities\Routes\ControllerMethodReader->read('App\\Controllers\\Libros', 'Home', 'index')
+ 3 SYSTEMPATH\Commands\Utilities\Routes.php(163): CodeIgniter\Commands\Utilities\Routes\AutoRouteCollector->get()
+ 4 SYSTEMPATH\CLI\Commands.php(70): CodeIgniter\Commands\Utilities\Routes->run([])
+ 5 SYSTEMPATH\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('routes', [])
+ 6 SYSTEMPATH\Boot.php(351): CodeIgniter\CLI\Console->run()
+ 7 SYSTEMPATH\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 8 ROOTPATH\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+CRITICAL - 2024-11-20 19:47:35 --> ReflectionException: Class "App\Controllers\Libros" does not exist
+[Method: CLI, Route: routes]
+in SYSTEMPATH\Commands\Utilities\Routes\ControllerMethodReader.php on line 40.
+ 1 SYSTEMPATH\Commands\Utilities\Routes\ControllerMethodReader.php(40): ReflectionClass->__construct('App\\Controllers\\Libros')
+ 2 SYSTEMPATH\Commands\Utilities\Routes\AutoRouteCollector.php(44): CodeIgniter\Commands\Utilities\Routes\ControllerMethodReader->read('App\\Controllers\\Libros', 'Home', 'index')
+ 3 SYSTEMPATH\Commands\Utilities\Routes.php(163): CodeIgniter\Commands\Utilities\Routes\AutoRouteCollector->get()
+ 4 SYSTEMPATH\CLI\Commands.php(70): CodeIgniter\Commands\Utilities\Routes->run([])
+ 5 SYSTEMPATH\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('routes', [])
+ 6 SYSTEMPATH\Boot.php(351): CodeIgniter\CLI\Console->run()
+ 7 SYSTEMPATH\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 8 ROOTPATH\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+CRITICAL - 2024-11-20 19:48:14 --> ErrorException: Undefined variable $libros
+[Method: GET, Route: libros]
+in APPPATH\Views\Libreria.php on line 20.
+ 1 APPPATH\Views\Libreria.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $libros', 'C:\\laragon\\www\\biblioteca\\app\\Views\\Libreria.php', 20)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\biblioteca\\app\\Views\\Libreria.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Libreria', [], true)
+ 5 APPPATH\Controllers\Libros.php(14): view('Libreria', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Libros->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 19:49:29 --> ErrorException: Undefined variable $libros
+[Method: GET, Route: libros]
+in APPPATH\Views\Libreria.php on line 20.
+ 1 APPPATH\Views\Libreria.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $libros', 'C:\\laragon\\www\\biblioteca\\app\\Views\\Libreria.php', 20)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\biblioteca\\app\\Views\\Libreria.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Libreria', [], true)
+ 5 APPPATH\Controllers\Libros.php(14): view('Libreria', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Libros->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 19:49:30 --> ErrorException: Undefined variable $libros
+[Method: GET, Route: libros]
+in APPPATH\Views\Libreria.php on line 20.
+ 1 APPPATH\Views\Libreria.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $libros', 'C:\\laragon\\www\\biblioteca\\app\\Views\\Libreria.php', 20)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\biblioteca\\app\\Views\\Libreria.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Libreria', [], true)
+ 5 APPPATH\Controllers\Libros.php(14): view('Libreria', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Libros->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 19:49:31 --> ErrorException: Undefined variable $libros
+[Method: GET, Route: libros]
+in APPPATH\Views\Libreria.php on line 20.
+ 1 APPPATH\Views\Libreria.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $libros', 'C:\\laragon\\www\\biblioteca\\app\\Views\\Libreria.php', 20)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\biblioteca\\app\\Views\\Libreria.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Libreria', [], true)
+ 5 APPPATH\Controllers\Libros.php(14): view('Libreria', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Libros->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 19:49:54 --> ErrorException: Undefined variable $libros
+[Method: GET, Route: libros]
+in APPPATH\Views\Libreria.php on line 20.
+ 1 APPPATH\Views\Libreria.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $libros', 'C:\\laragon\\www\\biblioteca\\app\\Views\\Libreria.php', 20)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\biblioteca\\app\\Views\\Libreria.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Libreria', [], true)
+ 5 APPPATH\Controllers\Libros.php(14): view('Libreria', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Libros->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 19:49:55 --> ErrorException: Undefined variable $libros
+[Method: GET, Route: libros]
+in APPPATH\Views\Libreria.php on line 20.
+ 1 APPPATH\Views\Libreria.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $libros', 'C:\\laragon\\www\\biblioteca\\app\\Views\\Libreria.php', 20)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\biblioteca\\app\\Views\\Libreria.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Libreria', [], true)
+ 5 APPPATH\Controllers\Libros.php(14): view('Libreria', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Libros->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 19:50:02 --> ErrorException: Undefined variable $libros
+[Method: GET, Route: libros]
+in APPPATH\Views\Libreria.php on line 20.
+ 1 APPPATH\Views\Libreria.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $libros', 'C:\\laragon\\www\\biblioteca\\app\\Views\\Libreria.php', 20)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\biblioteca\\app\\Views\\Libreria.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Libreria', [], true)
+ 5 APPPATH\Controllers\Libros.php(14): view('Libreria', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Libros->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 19:50:03 --> ErrorException: Undefined variable $libros
+[Method: GET, Route: libros]
+in APPPATH\Views\Libreria.php on line 20.
+ 1 APPPATH\Views\Libreria.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $libros', 'C:\\laragon\\www\\biblioteca\\app\\Views\\Libreria.php', 20)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\biblioteca\\app\\Views\\Libreria.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Libreria', [], true)
+ 5 APPPATH\Controllers\Libros.php(14): view('Libreria', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Libros->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 19:50:03 --> ErrorException: Undefined variable $libros
+[Method: GET, Route: libros]
+in APPPATH\Views\Libreria.php on line 20.
+ 1 APPPATH\Views\Libreria.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $libros', 'C:\\laragon\\www\\biblioteca\\app\\Views\\Libreria.php', 20)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\biblioteca\\app\\Views\\Libreria.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Libreria', [], true)
+ 5 APPPATH\Controllers\Libros.php(14): view('Libreria', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Libros->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 20:55:20 --> Error: Class "App\Controllers\CategiraModel" not found
+[Method: GET, Route: Categorias]
+in APPPATH\Controllers\Categorias.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Categorias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 20:56:03 --> Error: Class "App\Controllers\CategiraModel" not found
+[Method: GET, Route: Categorias]
+in APPPATH\Controllers\Categorias.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Categorias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 20:56:03 --> Error: Class "App\Controllers\CategiraModel" not found
+[Method: GET, Route: Categorias]
+in APPPATH\Controllers\Categorias.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Categorias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 20:56:04 --> Error: Class "App\Controllers\CategiraModel" not found
+[Method: GET, Route: Categorias]
+in APPPATH\Controllers\Categorias.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Categorias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 20:56:05 --> Error: Class "App\Controllers\CategiraModel" not found
+[Method: GET, Route: Categorias]
+in APPPATH\Controllers\Categorias.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Categorias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 20:56:06 --> Error: Class "App\Controllers\CategiraModel" not found
+[Method: GET, Route: Categorias]
+in APPPATH\Controllers\Categorias.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Categorias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 20:56:07 --> Error: Class "App\Controllers\CategiraModel" not found
+[Method: GET, Route: Categorias]
+in APPPATH\Controllers\Categorias.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Categorias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 20:56:32 --> Error: Class "App\Controllers\CategiraModel" not found
+[Method: GET, Route: Categorias]
+in APPPATH\Controllers\Categorias.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Categorias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 20:56:32 --> Error: Class "App\Controllers\CategiraModel" not found
+[Method: GET, Route: Categorias]
+in APPPATH\Controllers\Categorias.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Categorias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 20:56:33 --> Error: Class "App\Controllers\CategiraModel" not found
+[Method: GET, Route: Categorias]
+in APPPATH\Controllers\Categorias.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Categorias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 20:56:33 --> Error: Class "App\Controllers\CategiraModel" not found
+[Method: GET, Route: Categorias]
+in APPPATH\Controllers\Categorias.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Categorias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 20:57:15 --> Error: Class "App\Controllers\CategoriaModel" not found
+[Method: GET, Route: Categorias]
+in APPPATH\Controllers\Categorias.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Categorias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 20:57:16 --> Error: Class "App\Controllers\CategoriaModel" not found
+[Method: GET, Route: Categorias]
+in APPPATH\Controllers\Categorias.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Categorias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 20:57:17 --> Error: Class "App\Controllers\CategoriaModel" not found
+[Method: GET, Route: Categorias]
+in APPPATH\Controllers\Categorias.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Categorias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 20:58:02 --> Error: Class "App\Controllers\CategoriaModel" not found
+[Method: GET, Route: Categorias]
+in APPPATH\Controllers\Categorias.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Categorias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 20:58:03 --> Error: Class "App\Controllers\CategoriaModel" not found
+[Method: GET, Route: Categorias]
+in APPPATH\Controllers\Categorias.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Categorias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 20:58:04 --> Error: Class "App\Controllers\CategoriaModel" not found
+[Method: GET, Route: Categorias]
+in APPPATH\Controllers\Categorias.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Categorias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 20:58:04 --> Error: Class "App\Controllers\CategoriaModel" not found
+[Method: GET, Route: Categorias]
+in APPPATH\Controllers\Categorias.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Categorias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 20:58:05 --> Error: Class "App\Controllers\CategoriaModel" not found
+[Method: GET, Route: Categorias]
+in APPPATH\Controllers\Categorias.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Categorias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 20:58:06 --> Error: Class "App\Controllers\CategoriaModel" not found
+[Method: GET, Route: Categorias]
+in APPPATH\Controllers\Categorias.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Categorias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 20:58:54 --> Error: Class "App\Controllers\CategoriaModel" not found
+[Method: GET, Route: Categorias]
+in APPPATH\Controllers\Categorias.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Categorias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 20:58:55 --> Error: Class "App\Controllers\CategoriaModel" not found
+[Method: GET, Route: Categorias]
+in APPPATH\Controllers\Categorias.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Categorias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 20:58:56 --> Error: Class "App\Controllers\CategoriaModel" not found
+[Method: GET, Route: Categorias]
+in APPPATH\Controllers\Categorias.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Categorias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 21:00:09 --> Error: Class "App\Controllers\CategoriaModel" not found
+[Method: GET, Route: Categorias]
+in APPPATH\Controllers\Categorias.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Categorias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 21:00:10 --> Error: Class "App\Controllers\CategoriaModel" not found
+[Method: GET, Route: Categorias]
+in APPPATH\Controllers\Categorias.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Categorias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 21:00:10 --> Error: Class "App\Controllers\CategoriaModel" not found
+[Method: GET, Route: Categorias]
+in APPPATH\Controllers\Categorias.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Categorias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 21:02:50 --> Error: Class "App\Controllers\CategoriaModel" not found
+[Method: GET, Route: Categorias]
+in APPPATH\Controllers\Categorias.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Categorias->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 21:06:21 --> ErrorException: Undefined array key "descripcion"
+[Method: GET, Route: Categorias]
+in APPPATH\Views\Categoria.php on line 24.
+ 1 APPPATH\Views\Categoria.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "descripcion"', 'C:\\laragon\\www\\biblioteca\\app\\Views\\Categoria.php', 24)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\biblioteca\\app\\Views\\Categoria.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Categoria', [], true)
+ 5 APPPATH\Controllers\Categorias.php(14): view('Categoria', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Categorias->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 21:06:23 --> ErrorException: Undefined array key "descripcion"
+[Method: GET, Route: Categorias]
+in APPPATH\Views\Categoria.php on line 24.
+ 1 APPPATH\Views\Categoria.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "descripcion"', 'C:\\laragon\\www\\biblioteca\\app\\Views\\Categoria.php', 24)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\biblioteca\\app\\Views\\Categoria.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Categoria', [], true)
+ 5 APPPATH\Controllers\Categorias.php(14): view('Categoria', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Categorias->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
