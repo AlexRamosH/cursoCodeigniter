@@ -1,13 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?= $categorias['titulo']?></title>
-</head>
-<body>
+<?= $this->extend('layout/layout') ?>
+<?= $this->section('header') ?>
+mostrar
+<?= $this->endSection('header') ?>
+
+
+<?= $this->section('contenido') ?>
     
 <h1><?= $categorias['titulo']?></h1>
 
-</body>
-</html>
+<?= $this->endSection('contenido') ?>

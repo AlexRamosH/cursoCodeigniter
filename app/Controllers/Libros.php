@@ -58,7 +58,15 @@ class Libros extends BaseController
 
     public function new()
     {
-        echo view('Libro/new');
+        
+
+        echo view('Libro/new', [
+            'libros' => [
+                'titulo' => '',
+                'descripcion' => ''
+            ]
+        ]);
+        
     }
 
    

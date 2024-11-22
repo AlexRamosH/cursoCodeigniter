@@ -56,7 +56,12 @@ class Categorias extends BaseController
 
     public function new()
     {
-        echo view('Categoria/new');
+        echo view('Categoria/new', [
+            'categorias' => [
+                'titulo' => ''
+            ]
+        ]);
+        
     }
 
    
