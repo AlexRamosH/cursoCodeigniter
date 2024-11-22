@@ -87,7 +87,7 @@ class Categorias extends BaseController
                 'validation'=>$this->validator
                 
             ]);
-            return redirect()->back();
+            return redirect()->back()->withInput();
         }
         return redirect()->to('Categorias')->with('mensaje', 'Registro creado');
 

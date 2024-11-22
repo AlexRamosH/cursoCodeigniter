@@ -35,14 +35,14 @@ class Libros extends BaseController
 
             ]);
 
-            return redirect()->back()->with('mensaje', 'registro creado');
         } else {
             session()->setFlashData([
                 'validation' => $this->validator
             ]);
-            
+            return redirect()->back()->withInput();
         }
-        return redirect()->back();
+        return redirect()->back()->with('mensaje', 'registro creado');
+
 
     }
 
@@ -81,7 +81,7 @@ class Libros extends BaseController
     public function create()
     {
         $libroModel = new LibroModel();
-        if ($this->validate('categorias')) {
+        if ($this->validate('libros')) {
             $libroModel->insert([
                 'titulo' => $this->request->getPost('titulo'),
                 'descripcion' => $this->request->getPost('descripcion')
@@ -93,7 +93,7 @@ class Libros extends BaseController
                 'validation'=>$this->validator
                 
             ]);
-            return redirect()->back();
+            return redirect()->back()->withInput();
         }
         return redirect()->to('Libros')->with('mensaje', 'registro creado');
 

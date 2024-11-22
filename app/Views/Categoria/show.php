@@ -9,3 +9,4 @@ mostrar
 <h1><?= $categorias['titulo']?></h1>
 
 <?= $this->endSection('contenido') ?>
+
