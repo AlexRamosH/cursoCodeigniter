@@ -6,6 +6,9 @@ crear
 
 <?= $this->section('contenido') ?>
 
+<?= view('partials/form_error')?>
+
+
     <form method="POST" action="create">
     <?= view('Libro/_form',['op'=> 'Crear'])?>
 

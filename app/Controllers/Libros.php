@@ -5,6 +5,7 @@ namespace App\Controllers;
 use App\Controllers\BaseController;
 use CodeIgniter\HTTP\ResponseInterface;
 use App\models\LibroModel;
+
 class Libros extends BaseController
 {
     public function index()
@@ -18,7 +19,7 @@ class Libros extends BaseController
     public function edit($id)
     {
         $libroModel = new LibroModel();
-       
+
         echo view('Libro/edit', [
             'libros' => $libroModel->find($id)
         ]);
@@ -27,38 +28,45 @@ class Libros extends BaseController
     public function update($id)
     {
         $libroModel = new LibroModel();
+        if ($this->validate('libros')) {
+            $libroModel->update($id, [
+                'titulo' => $this->request->getPost('titulo'),
+                'descripcion' => $this->request->getPost('descripcion'),
 
-        $libroModel->update($id,[
-            'titulo' => $this->request->getPost('titulo'),
-            'descripcion' => $this->request->getPost('descripcion'),
+            ]);
 
-        ]);
-
+            return redirect()->back()->with('mensaje', 'registro creado');
+        } else {
+            session()->setFlashData([
+                'validation' => $this->validator
+            ]);
+            
+        }
         return redirect()->back();
-        
+
     }
 
     public function delete($id)
     {
         $libroModel = new LibroModel();
         $libroModel->delete($id);
-        return redirect()->back();
+        return redirect()->back()->with('mensaje', 'registro eliminado');
     }
 
     public function show($id)
     {
         $libroModel = new LibroModel();
 
-      //  var_dump($librosModel->find($id));
+        //  var_dump($librosModel->find($id));
 
-      echo view('Libro/show', [
-        'libro' => $libroModel->find($id)
-      ]);
+        echo view('Libro/show', [
+            'libro' => $libroModel->find($id)
+        ]);
     }
 
     public function new()
     {
-        
+
 
         echo view('Libro/new', [
             'libros' => [
@@ -66,22 +74,30 @@ class Libros extends BaseController
                 'descripcion' => ''
             ]
         ]);
-        
     }
 
-   
 
-    public function create(){
+
+    public function create()
+    {
         $libroModel = new LibroModel();
-        $libroModel -> insert([
-            'titulo' => $this->request->getPost('titulo'),
-            'descripcion' => $this->request->getPost('descripcion')
-        ]);
+        if ($this->validate('categorias')) {
+            $libroModel->insert([
+                'titulo' => $this->request->getPost('titulo'),
+                'descripcion' => $this->request->getPost('descripcion')
+            ]);
 
-        return redirect()->to('Libros');
+        } else {
+            session()->setFlashdata([
+
+                'validation'=>$this->validator
+                
+            ]);
+            return redirect()->back();
+        }
+        return redirect()->to('Libros')->with('mensaje', 'registro creado');
 
     }
-
 }
 
 

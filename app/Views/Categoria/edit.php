@@ -6,6 +6,7 @@ editar
 
 <?= $this->section('contenido') ?>
 
+<?= view('partials/form_error')?>
 
     <form method="POST" action="../update/<?= $categorias['id']?>">
     <?= view('Categoria/_form',['op'=> 'Atualizar'])?>

@@ -6,6 +6,9 @@ editar
 
 <?= $this->section('contenido') ?>
 
+<?= view('partials/form_error')?>
+
+
     <form method="POST" action="../update/<?= $libros['id']?>">
     <?= view('Libro/_form',['op'=> 'Editar'])?>
 </form>
