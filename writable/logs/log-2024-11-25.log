@@ -1,0 +1,450 @@
+INFO - 2024-11-25 15:59:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 16:17:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 16:17:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 16:17:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 16:19:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 17:09:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 17:10:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 17:10:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 17:12:23 --> ReflectionException: Class "App\Controllers\Categorias" does not exist
+[Method: CLI, Route: routes]
+in SYSTEMPATH\Commands\Utilities\Routes\ControllerMethodReader.php on line 40.
+ 1 SYSTEMPATH\Commands\Utilities\Routes\ControllerMethodReader.php(40): ReflectionClass->__construct('App\\Controllers\\Categorias')
+ 2 SYSTEMPATH\Commands\Utilities\Routes\AutoRouteCollector.php(44): CodeIgniter\Commands\Utilities\Routes\ControllerMethodReader->read('App\\Controllers\\Categorias', 'Home', 'index')
+ 3 SYSTEMPATH\Commands\Utilities\Routes.php(163): CodeIgniter\Commands\Utilities\Routes\AutoRouteCollector->get()
+ 4 SYSTEMPATH\CLI\Commands.php(70): CodeIgniter\Commands\Utilities\Routes->run([])
+ 5 SYSTEMPATH\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('routes', [])
+ 6 SYSTEMPATH\Boot.php(351): CodeIgniter\CLI\Console->run()
+ 7 SYSTEMPATH\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 8 ROOTPATH\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+CRITICAL - 2024-11-25 17:13:25 --> ReflectionException: Class "App\Controllers\Categorias" does not exist
+[Method: CLI, Route: routes]
+in SYSTEMPATH\Commands\Utilities\Routes\ControllerMethodReader.php on line 40.
+ 1 SYSTEMPATH\Commands\Utilities\Routes\ControllerMethodReader.php(40): ReflectionClass->__construct('App\\Controllers\\Categorias')
+ 2 SYSTEMPATH\Commands\Utilities\Routes\AutoRouteCollector.php(44): CodeIgniter\Commands\Utilities\Routes\ControllerMethodReader->read('App\\Controllers\\Categorias', 'Home', 'index')
+ 3 SYSTEMPATH\Commands\Utilities\Routes.php(163): CodeIgniter\Commands\Utilities\Routes\AutoRouteCollector->get()
+ 4 SYSTEMPATH\CLI\Commands.php(70): CodeIgniter\Commands\Utilities\Routes->run([])
+ 5 SYSTEMPATH\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('routes', [])
+ 6 SYSTEMPATH\Boot.php(351): CodeIgniter\CLI\Console->run()
+ 7 SYSTEMPATH\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 8 ROOTPATH\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+CRITICAL - 2024-11-25 17:13:27 --> ReflectionException: Class "App\Controllers\Categorias" does not exist
+[Method: CLI, Route: routes]
+in SYSTEMPATH\Commands\Utilities\Routes\ControllerMethodReader.php on line 40.
+ 1 SYSTEMPATH\Commands\Utilities\Routes\ControllerMethodReader.php(40): ReflectionClass->__construct('App\\Controllers\\Categorias')
+ 2 SYSTEMPATH\Commands\Utilities\Routes\AutoRouteCollector.php(44): CodeIgniter\Commands\Utilities\Routes\ControllerMethodReader->read('App\\Controllers\\Categorias', 'Home', 'index')
+ 3 SYSTEMPATH\Commands\Utilities\Routes.php(163): CodeIgniter\Commands\Utilities\Routes\AutoRouteCollector->get()
+ 4 SYSTEMPATH\CLI\Commands.php(70): CodeIgniter\Commands\Utilities\Routes->run([])
+ 5 SYSTEMPATH\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('routes', [])
+ 6 SYSTEMPATH\Boot.php(351): CodeIgniter\CLI\Console->run()
+ 7 SYSTEMPATH\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 8 ROOTPATH\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+CRITICAL - 2024-11-25 17:16:26 --> ReflectionException: Class "App\Controllers\Categorias" does not exist
+[Method: CLI, Route: routes]
+in SYSTEMPATH\Commands\Utilities\Routes\ControllerMethodReader.php on line 40.
+ 1 SYSTEMPATH\Commands\Utilities\Routes\ControllerMethodReader.php(40): ReflectionClass->__construct('App\\Controllers\\Categorias')
+ 2 SYSTEMPATH\Commands\Utilities\Routes\AutoRouteCollector.php(44): CodeIgniter\Commands\Utilities\Routes\ControllerMethodReader->read('App\\Controllers\\Categorias', 'Home', 'index')
+ 3 SYSTEMPATH\Commands\Utilities\Routes.php(163): CodeIgniter\Commands\Utilities\Routes\AutoRouteCollector->get()
+ 4 SYSTEMPATH\CLI\Commands.php(70): CodeIgniter\Commands\Utilities\Routes->run([])
+ 5 SYSTEMPATH\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('routes', [])
+ 6 SYSTEMPATH\Boot.php(351): CodeIgniter\CLI\Console->run()
+ 7 SYSTEMPATH\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 8 ROOTPATH\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+ERROR - 2024-11-25 17:24:55 --> mysqli_sql_exception: Invalid default value for 'tipo' in C:\laragon\www\biblioteca\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\biblioteca\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\laragon\www\biblioteca\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\laragon\www\biblioteca\app\Database\Migrations\2024-11-25-171856_Usuarios.php(48): CodeIgniter\Database\Forge->createTable('usuarios')
+#5 C:\laragon\www\biblioteca\system\Database\MigrationRunner.php(867): App\Database\Migrations\Usuarios->up()
+#6 C:\laragon\www\biblioteca\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\laragon\www\biblioteca\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\laragon\www\biblioteca\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\laragon\www\biblioteca\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\laragon\www\biblioteca\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 C:\laragon\www\biblioteca\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\laragon\www\biblioteca\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2024-11-25 18:07:50 --> mysqli_sql_exception: Table 'libros' already exists in C:\laragon\www\biblioteca\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\biblioteca\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `l...', 0)
+#1 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `l...')
+#2 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `l...')
+#3 C:\laragon\www\biblioteca\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `l...')
+#4 C:\laragon\www\biblioteca\app\Database\Migrations\2024-11-20-182505_Libros.php(34): CodeIgniter\Database\Forge->createTable('libros')
+#5 C:\laragon\www\biblioteca\system\Database\MigrationRunner.php(867): App\Database\Migrations\Libros->up()
+#6 C:\laragon\www\biblioteca\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\laragon\www\biblioteca\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\laragon\www\biblioteca\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\laragon\www\biblioteca\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\laragon\www\biblioteca\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 C:\laragon\www\biblioteca\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\laragon\www\biblioteca\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2024-11-25 18:07:50 --> mysqli_sql_exception: Table 'categoria' already exists in C:\laragon\www\biblioteca\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\biblioteca\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `c...', 0)
+#1 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `c...')
+#2 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `c...')
+#3 C:\laragon\www\biblioteca\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `c...')
+#4 C:\laragon\www\biblioteca\app\Database\Migrations\2024-11-20-190010_Categoria.php(30): CodeIgniter\Database\Forge->createTable('categoria')
+#5 C:\laragon\www\biblioteca\system\Database\MigrationRunner.php(867): App\Database\Migrations\Categoria->up()
+#6 C:\laragon\www\biblioteca\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\laragon\www\biblioteca\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\laragon\www\biblioteca\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\laragon\www\biblioteca\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\laragon\www\biblioteca\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 C:\laragon\www\biblioteca\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\laragon\www\biblioteca\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2024-11-25 18:07:50 --> mysqli_sql_exception: Invalid default value for 'tipo' in C:\laragon\www\biblioteca\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\biblioteca\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\laragon\www\biblioteca\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\laragon\www\biblioteca\app\Database\Migrations\2024-11-25-171856_Usuarios.php(48): CodeIgniter\Database\Forge->createTable('usuarios')
+#5 C:\laragon\www\biblioteca\system\Database\MigrationRunner.php(867): App\Database\Migrations\Usuarios->up()
+#6 C:\laragon\www\biblioteca\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\laragon\www\biblioteca\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\laragon\www\biblioteca\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\laragon\www\biblioteca\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\laragon\www\biblioteca\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 C:\laragon\www\biblioteca\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\laragon\www\biblioteca\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2024-11-25 18:10:32 --> mysqli_sql_exception: Table 'biblioteca.usuarios' doesn't exist in C:\laragon\www\biblioteca\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\biblioteca\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `id`, `u...', 0)
+#1 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `u...')
+#2 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `u...')
+#3 C:\laragon\www\biblioteca\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `u...', Array, false)
+#4 C:\laragon\www\biblioteca\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\biblioteca\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 C:\laragon\www\biblioteca\app\Controllers\Admin\Usuarios.php(46): CodeIgniter\BaseModel->first()
+#7 C:\laragon\www\biblioteca\system\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->login_post()
+#8 C:\laragon\www\biblioteca\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#9 C:\laragon\www\biblioteca\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\biblioteca\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\biblioteca\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\laragon\www\biblioteca\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2024-11-25 18:10:32 --> Error: Call to a member function getFirstRow() on bool
+[Method: GET, Route: usuario/login]
+in SYSTEMPATH\Model.php on line 330.
+ 1 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 2 APPPATH\Controllers\Admin\Usuarios.php(46): CodeIgniter\BaseModel->first()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->login_post()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-11-25 18:11:21 --> mysqli_sql_exception: Table 'biblioteca.usuarios' doesn't exist in C:\laragon\www\biblioteca\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\biblioteca\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `id`, `u...', 0)
+#1 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `u...')
+#2 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `u...')
+#3 C:\laragon\www\biblioteca\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `u...', Array, false)
+#4 C:\laragon\www\biblioteca\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\biblioteca\system\BaseModel.php(714): CodeIgniter\Model->doFirst()
+#6 C:\laragon\www\biblioteca\app\Controllers\Admin\Usuarios.php(46): CodeIgniter\BaseModel->first()
+#7 C:\laragon\www\biblioteca\system\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->login_post()
+#8 C:\laragon\www\biblioteca\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#9 C:\laragon\www\biblioteca\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\biblioteca\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\biblioteca\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\laragon\www\biblioteca\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2024-11-25 18:11:21 --> Error: Call to a member function getFirstRow() on bool
+[Method: GET, Route: usuario/login]
+in SYSTEMPATH\Model.php on line 330.
+ 1 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 2 APPPATH\Controllers\Admin\Usuarios.php(46): CodeIgniter\BaseModel->first()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->login_post()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-11-25 18:12:04 --> mysqli_sql_exception: Table 'biblioteca.usuarios' doesn't exist in C:\laragon\www\biblioteca\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\biblioteca\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\biblioteca\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\biblioteca\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\biblioteca\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\biblioteca\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\biblioteca\app\Controllers\Admin\Usuarios.php(20): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\biblioteca\system\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->crear_usuario()
+#9 C:\laragon\www\biblioteca\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#10 C:\laragon\www\biblioteca\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\biblioteca\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\biblioteca\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\laragon\www\biblioteca\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+INFO - 2024-11-25 18:14:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 18:14:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-25 18:16:01 --> mysqli_sql_exception: Table 'biblioteca.usuarios' doesn't exist in C:\laragon\www\biblioteca\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\biblioteca\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\biblioteca\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\biblioteca\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\biblioteca\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\biblioteca\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\biblioteca\app\Controllers\Admin\Usuarios.php(20): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\biblioteca\system\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->crear_usuario()
+#9 C:\laragon\www\biblioteca\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#10 C:\laragon\www\biblioteca\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\biblioteca\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\biblioteca\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\laragon\www\biblioteca\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+INFO - 2024-11-25 18:31:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 18:31:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-25 18:31:57 --> mysqli_sql_exception: Table 'biblioteca.usuarios' doesn't exist in C:\laragon\www\biblioteca\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\biblioteca\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\biblioteca\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\biblioteca\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\biblioteca\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\biblioteca\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\biblioteca\app\Controllers\Admin\Usuarios.php(20): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\biblioteca\system\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->crear_usuario()
+#9 C:\laragon\www\biblioteca\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#10 C:\laragon\www\biblioteca\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\biblioteca\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\biblioteca\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\laragon\www\biblioteca\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+INFO - 2024-11-25 18:36:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-25 18:41:07 --> mysqli_sql_exception: Unknown table 'biblioteca.usuarios' in C:\laragon\www\biblioteca\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\biblioteca\system\Database\MySQLi\Connection.php(312): mysqli->query('DROP TABLE `usu...', 0)
+#1 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DROP TABLE `usu...')
+#2 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DROP TABLE `usu...')
+#3 C:\laragon\www\biblioteca\system\Database\Forge.php(663): CodeIgniter\Database\BaseConnection->query('DROP TABLE `usu...')
+#4 C:\laragon\www\biblioteca\app\Database\Migrations\2024-11-25-171856_Usuarios.php(53): CodeIgniter\Database\Forge->dropTable('usuarios')
+#5 C:\laragon\www\biblioteca\system\Database\MigrationRunner.php(867): App\Database\Migrations\Usuarios->down()
+#6 C:\laragon\www\biblioteca\system\Database\MigrationRunner.php(290): CodeIgniter\Database\MigrationRunner->migrate('down', Object(stdClass))
+#7 C:\laragon\www\biblioteca\system\Commands\Database\MigrateRollback.php(101): CodeIgniter\Database\MigrationRunner->regress(0)
+#8 C:\laragon\www\biblioteca\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\MigrateRollback->run(Array)
+#9 C:\laragon\www\biblioteca\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate:rollbac...', Array)
+#10 C:\laragon\www\biblioteca\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 C:\laragon\www\biblioteca\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\laragon\www\biblioteca\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2024-11-25 18:41:17 --> mysqli_sql_exception: Invalid default value for 'tipo' in C:\laragon\www\biblioteca\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\biblioteca\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\laragon\www\biblioteca\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\laragon\www\biblioteca\app\Database\Migrations\2024-11-25-171856_Usuarios.php(48): CodeIgniter\Database\Forge->createTable('usuarios')
+#5 C:\laragon\www\biblioteca\system\Database\MigrationRunner.php(867): App\Database\Migrations\Usuarios->up()
+#6 C:\laragon\www\biblioteca\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\laragon\www\biblioteca\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\laragon\www\biblioteca\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\laragon\www\biblioteca\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\laragon\www\biblioteca\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 C:\laragon\www\biblioteca\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\laragon\www\biblioteca\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2024-11-25 18:43:30 --> mysqli_sql_exception: Unknown table 'biblioteca.usuarios' in C:\laragon\www\biblioteca\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\biblioteca\system\Database\MySQLi\Connection.php(312): mysqli->query('DROP TABLE `usu...', 0)
+#1 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DROP TABLE `usu...')
+#2 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DROP TABLE `usu...')
+#3 C:\laragon\www\biblioteca\system\Database\Forge.php(663): CodeIgniter\Database\BaseConnection->query('DROP TABLE `usu...')
+#4 C:\laragon\www\biblioteca\app\Database\Migrations\2024-11-25-171856_Usuarios.php(53): CodeIgniter\Database\Forge->dropTable('usuarios')
+#5 C:\laragon\www\biblioteca\system\Database\MigrationRunner.php(867): App\Database\Migrations\Usuarios->down()
+#6 C:\laragon\www\biblioteca\system\Database\MigrationRunner.php(290): CodeIgniter\Database\MigrationRunner->migrate('down', Object(stdClass))
+#7 C:\laragon\www\biblioteca\system\Commands\Database\MigrateRollback.php(101): CodeIgniter\Database\MigrationRunner->regress(0)
+#8 C:\laragon\www\biblioteca\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\MigrateRollback->run(Array)
+#9 C:\laragon\www\biblioteca\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate:rollbac...', Array)
+#10 C:\laragon\www\biblioteca\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 C:\laragon\www\biblioteca\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\laragon\www\biblioteca\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2024-11-25 18:44:39 --> mysqli_sql_exception: Invalid default value for 'tipo' in C:\laragon\www\biblioteca\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\biblioteca\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\laragon\www\biblioteca\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\laragon\www\biblioteca\app\Database\Migrations\2024-11-25-171856_Usuarios.php(48): CodeIgniter\Database\Forge->createTable('usuarios')
+#5 C:\laragon\www\biblioteca\system\Database\MigrationRunner.php(867): App\Database\Migrations\Usuarios->up()
+#6 C:\laragon\www\biblioteca\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\laragon\www\biblioteca\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\laragon\www\biblioteca\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\laragon\www\biblioteca\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\laragon\www\biblioteca\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 C:\laragon\www\biblioteca\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\laragon\www\biblioteca\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2024-11-25 18:45:05 --> mysqli_sql_exception: Unknown table 'biblioteca.usuarios' in C:\laragon\www\biblioteca\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\biblioteca\system\Database\MySQLi\Connection.php(312): mysqli->query('DROP TABLE `usu...', 0)
+#1 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DROP TABLE `usu...')
+#2 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DROP TABLE `usu...')
+#3 C:\laragon\www\biblioteca\system\Database\Forge.php(663): CodeIgniter\Database\BaseConnection->query('DROP TABLE `usu...')
+#4 C:\laragon\www\biblioteca\app\Database\Migrations\2024-11-25-171856_Usuarios.php(53): CodeIgniter\Database\Forge->dropTable('usuarios')
+#5 C:\laragon\www\biblioteca\system\Database\MigrationRunner.php(867): App\Database\Migrations\Usuarios->down()
+#6 C:\laragon\www\biblioteca\system\Database\MigrationRunner.php(290): CodeIgniter\Database\MigrationRunner->migrate('down', Object(stdClass))
+#7 C:\laragon\www\biblioteca\system\Commands\Database\MigrateRollback.php(101): CodeIgniter\Database\MigrationRunner->regress(0)
+#8 C:\laragon\www\biblioteca\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\MigrateRollback->run(Array)
+#9 C:\laragon\www\biblioteca\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate:rollbac...', Array)
+#10 C:\laragon\www\biblioteca\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 C:\laragon\www\biblioteca\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\laragon\www\biblioteca\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2024-11-25 18:45:20 --> mysqli_sql_exception: Invalid default value for 'tipo' in C:\laragon\www\biblioteca\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\biblioteca\system\Database\MySQLi\Connection.php(312): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\laragon\www\biblioteca\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\laragon\www\biblioteca\app\Database\Migrations\2024-11-25-171856_Usuarios.php(48): CodeIgniter\Database\Forge->createTable('usuarios')
+#5 C:\laragon\www\biblioteca\system\Database\MigrationRunner.php(867): App\Database\Migrations\Usuarios->up()
+#6 C:\laragon\www\biblioteca\system\Database\MigrationRunner.php(183): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\laragon\www\biblioteca\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\laragon\www\biblioteca\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\laragon\www\biblioteca\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\laragon\www\biblioteca\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 C:\laragon\www\biblioteca\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\laragon\www\biblioteca\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2024-11-25 18:46:40 --> mysqli_sql_exception: Unknown table 'biblioteca.usuarios' in C:\laragon\www\biblioteca\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\biblioteca\system\Database\MySQLi\Connection.php(312): mysqli->query('DROP TABLE `usu...', 0)
+#1 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('DROP TABLE `usu...')
+#2 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('DROP TABLE `usu...')
+#3 C:\laragon\www\biblioteca\system\Database\Forge.php(663): CodeIgniter\Database\BaseConnection->query('DROP TABLE `usu...')
+#4 C:\laragon\www\biblioteca\app\Database\Migrations\2024-11-25-171856_Usuarios.php(53): CodeIgniter\Database\Forge->dropTable('usuarios')
+#5 C:\laragon\www\biblioteca\system\Database\MigrationRunner.php(867): App\Database\Migrations\Usuarios->down()
+#6 C:\laragon\www\biblioteca\system\Database\MigrationRunner.php(290): CodeIgniter\Database\MigrationRunner->migrate('down', Object(stdClass))
+#7 C:\laragon\www\biblioteca\system\Commands\Database\MigrateRollback.php(101): CodeIgniter\Database\MigrationRunner->regress(0)
+#8 C:\laragon\www\biblioteca\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\MigrateRollback->run(Array)
+#9 C:\laragon\www\biblioteca\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate:rollbac...', Array)
+#10 C:\laragon\www\biblioteca\system\Boot.php(351): CodeIgniter\CLI\Console->run()
+#11 C:\laragon\www\biblioteca\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\laragon\www\biblioteca\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+INFO - 2024-11-25 18:51:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 18:51:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-25 18:52:49 --> mysqli_sql_exception: Duplicate entry 'admin' for key 'usuarios.usuario' in C:\laragon\www\biblioteca\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\biblioteca\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\biblioteca\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\biblioteca\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\biblioteca\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\biblioteca\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\biblioteca\app\Controllers\Admin\Usuarios.php(20): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\biblioteca\system\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->crear_usuario()
+#9 C:\laragon\www\biblioteca\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#10 C:\laragon\www\biblioteca\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\biblioteca\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\biblioteca\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\laragon\www\biblioteca\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+INFO - 2024-11-25 18:53:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 18:54:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 18:55:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 18:55:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 18:56:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-11-25 18:56:08 --> mysqli_sql_exception: Duplicate entry 'admin' for key 'usuarios.usuario' in C:\laragon\www\biblioteca\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\laragon\www\biblioteca\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\biblioteca\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\biblioteca\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\biblioteca\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\biblioteca\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\biblioteca\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\biblioteca\app\Controllers\Admin\Usuarios.php(20): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\biblioteca\system\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->crear_usuario()
+#9 C:\laragon\www\biblioteca\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+#10 C:\laragon\www\biblioteca\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\biblioteca\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\biblioteca\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\laragon\www\biblioteca\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+INFO - 2024-11-25 18:56:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 18:56:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 19:02:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 19:02:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-25 19:02:21 --> Error: Call to undefined method CodeIgniter\View\View::extends()
+[Method: GET, Route: usuario/registro]
+in APPPATH\Views\web\usuario\registro.php on line 1.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('web/usuario/registro', [], true)
+ 4 APPPATH\Controllers\Admin\Usuarios.php(68): view('web/usuario/registro')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->register()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-25 19:03:01 --> Error: Call to undefined method CodeIgniter\View\View::extends()
+[Method: GET, Route: usuario/registro]
+in APPPATH\Views\web\usuario\registro.php on line 1.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('web/usuario/registro', [], true)
+ 4 APPPATH\Controllers\Admin\Usuarios.php(68): view('web/usuario/registro')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Usuarios->register()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-25 19:03:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 19:03:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 19:03:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 19:03:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 19:03:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 19:03:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 19:05:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 19:06:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 19:06:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 19:06:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 19:06:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 19:06:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 19:06:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 19:06:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 19:07:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 19:07:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 19:07:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 19:07:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 19:07:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 19:08:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 19:08:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 19:08:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 19:08:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 19:08:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 19:10:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 19:10:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 19:13:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 19:13:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 19:13:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 19:14:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 19:14:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 19:14:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 19:15:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 19:16:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 19:17:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 19:17:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 19:17:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 19:20:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 19:20:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 19:20:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-25 19:20:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
