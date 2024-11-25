@@ -12,6 +12,7 @@ use CodeIgniter\Filters\InvalidChars;
 use CodeIgniter\Filters\PageCache;
 use CodeIgniter\Filters\PerformanceMetrics;
 use CodeIgniter\Filters\SecureHeaders;
+use App\Filters\DashboardFilter;
 
 class Filters extends BaseFilters
 {
@@ -28,6 +29,7 @@ class Filters extends BaseFilters
         'csrf'          => CSRF::class,
         'toolbar'       => DebugToolbar::class,
         'honeypot'      => Honeypot::class,
+        'DashboardFilter' => DashboardFilter::class,
         'invalidchars'  => InvalidChars::class,
         'secureheaders' => SecureHeaders::class,
         'cors'          => Cors::class,
@@ -103,5 +105,19 @@ class Filters extends BaseFilters
      *
      * @var array<string, array<string, list<string>>>
      */
-    public array $filters = [];
+    public array $filters = [
+
+        'DashboardFilter'  => [
+
+            'before' => [
+
+                'admin',
+                'admin/*'
+            ]
+
+        ]
+
+
+
+    ];
 }

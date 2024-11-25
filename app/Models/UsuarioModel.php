@@ -12,7 +12,7 @@ class UsuarioModel extends Model
     protected $returnType       = 'array';
    // protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['usuario','email','contrasena'];
+    protected $allowedFields    = ['usuario','email','contrasena','tipo'];
 
    public function contrasenaHash($contrasenaHash){
     return password_hash($contrasenaHash,PASSWORD_DEFAULT);

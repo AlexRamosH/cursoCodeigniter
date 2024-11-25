@@ -25,7 +25,14 @@ class DashboardFilter implements FilterInterface
      */
     public function before(RequestInterface $request, $arguments = null)
     {
-        //
+        if(!session()->get('usuario')){
+            return redirect()->to('usuario/login');
+        }
+
+        $usuario = session()->get('usuario');
+        if($usuario['tipo'] != 'admin'){
+            return redirect()->to('usuario/login');
+        }
     }
 
     /**

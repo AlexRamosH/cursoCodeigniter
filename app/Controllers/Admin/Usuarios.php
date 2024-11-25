@@ -53,7 +53,7 @@ class Usuarios extends BaseController
         {
             $session = session();
             unset($usuario['contrasena']);
-            $session->set($usuario);
+            $session->set(['usuario' =>$usuario]);
 
             return redirect()->to('Admin/Categorias')->with('mensaje', 'Bienvenido ' .$usuario['usuario']);
         }
