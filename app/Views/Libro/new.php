@@ -1,21 +1,18 @@
 <?= $this->extend('layout/layout') ?>
+
 <?= $this->section('header') ?>
-crear
+<div class="container mt-4">
+    <h1 class="text-center">Crear Libro</h1>
+</div>
 <?= $this->endSection('header') ?>
 
-
 <?= $this->section('contenido') ?>
-
-<?= view('partials/form_error')?>
-
+<div class="container mt-4">
+    <?= view('partials/form_error') ?>
 
     <form method="POST" action="create">
-    <?= view('Libro/_form',['op'=> 'Crear'])?>
-
-</form>
-
+        <?= view('Libro/_form', ['op' => 'Crear']) ?>
+        
+    </form>
+</div>
 <?= $this->endSection('contenido') ?>
-
-
-
-

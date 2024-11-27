@@ -19,6 +19,6 @@ class UsuarioModel extends Model
    }
 
    public function contrasenaVerificar($contrasenaPlano, $contrasenahash){
-    return password_hash($contrasenaPlano,PASSWORD_DEFAULT);
+    return password_verify($contrasenaPlano, $contrasenahash);
    }
 }

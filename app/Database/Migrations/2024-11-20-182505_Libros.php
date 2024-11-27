@@ -12,28 +12,33 @@ class Libros extends Migration
         $this->forge->addField([
             'id' => [
                 'type' => 'INT',
-                'unasigned' => TRUE,
+                'unsigned' => TRUE,
                 'constraint' => 10,
                 'auto_increment' => TRUE
             ],
             'titulo' => [
-                'type' => 'varchar',
+                'type' => 'VARCHAR',
                 'constraint' => 255,
                 'null' => FALSE
             ],
             'descripcion' => [
-                'type' => 'varchar',
+                'type' => 'VARCHAR',
                 'constraint' => 255,
-                'null' => true
+                'null' => TRUE
+            ],
+            'categoria_id' => [
+                'type' => 'INT',
+                'constraint' => 10,
+                'unsigned' => TRUE
             ]
-            ]);
-            //creamos llave primaria
-            $this->forge->addkey('id', TRUE);
+        ]);
+        //Creamos llave primaria 
+        $this->forge->addKey('id', TRUE);
+        $this->forge->addForeignKey('categoria_id', 'categoria', 'id', 'CASCADE', 'CASCADE');
 
-            //crear tabla
-            $this->forge->createTable('libros');
-
-        }
+        //Creamos la tabla
+        $this->forge->createTable('libros');
+    }
           
  
 

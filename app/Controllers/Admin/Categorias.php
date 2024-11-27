@@ -89,7 +89,7 @@ class Categorias extends BaseController
             ]);
             return redirect()->back()->withInput();
         }
-        return redirect()->to('Categorias')->with('mensaje', 'Registro creado');
+        return redirect()->to('Admin/Categorias')->with('mensaje', 'Registro creado');
 
     }
 }

@@ -44,7 +44,8 @@ $routes->post('usuario/login_post','Admin\Usuarios::login_post');
 $routes->get('usuario/registro','Admin\Usuarios::register');
 $routes->post('usuario/registro_post','Admin\Usuarios::register_post');
 $routes->get('usuario/logout','Admin\Usuarios::logout');
+$routes->group('api', ['namespace' => 'App\Controllers\Api'], function($routes) { $routes->resource('categorias'); });
 
-
+$routes->group('api', ['namespace' => 'App\Controllers\Api'], function($routes) { $routes->resource('libros'); });
 
 

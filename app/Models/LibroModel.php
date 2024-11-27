@@ -12,7 +12,7 @@ class LibroModel extends Model
     protected $returnType       = 'array';
     //protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['titulo', 'descripcion'];
+    protected $allowedFields    = ['titulo', 'descripcion', 'categoria_id'];
 
    // protected bool $allowEmptyInserts = false;
   //  protected bool $updateOnlyChanged = true;

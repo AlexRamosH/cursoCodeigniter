@@ -1,17 +1,18 @@
 <?= $this->extend('layout/layout') ?>
+
 <?= $this->section('header') ?>
-editar
+<div class="container mt-4">
+    <h1 class="text-center">Editar Libro</h1>
+</div>
 <?= $this->endSection('header') ?>
 
-
 <?= $this->section('contenido') ?>
-
-<?= view('partials/form_error')?>
-
+<div class="container mt-4">
+    <?= view('partials/form_error') ?>
 
     <form method="POST" action="../update/<?= $libros['id']?>">
-    <?= view('Libro/_form',['op'=> 'Editar'])?>
-</form>
-
-
+        <?= view('Libro/_form', ['op' => 'Editar']) ?>
+        
+    </form>
+</div>
 <?= $this->endSection('contenido') ?>
